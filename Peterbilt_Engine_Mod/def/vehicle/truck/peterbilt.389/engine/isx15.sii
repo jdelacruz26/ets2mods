@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_engine_data : isx15.peterbilt.389.engine
+{
+	name: "Cummins ISX 15"
+	price: 49510
+	unlock: 18
+	info[]: "550 @@hp@@ (410@@kw@@)"
+	info[]: "1@@dg@@850 @@lb_ft@@ (2508@@nm@@)"
+	info[]: "1@@dg@@200 @@rpm@@"
+	icon: "engine_01"
+	torque: 2508
+	rpm_limit: 2200
+	volume: 15
+
+	engine_brake: 2.0
+	engine_brake_downshift: 0
+	engine_brake_positions: 3
+}
+}

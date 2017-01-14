@@ -1,0 +1,9 @@
+﻿[orange]Peterbilt engine mod v1.0
+[white]Testeado en versión del juego: [orange]1.5.XX
+[white]Autor: [red]Maxpayne
+[red]Peterbilt engine mod v.1.0
+=======================
+[white]
+- Motor del KW900 para el Peterbilt 389.
+- KW900 engine for the Peterbilt 389.
+

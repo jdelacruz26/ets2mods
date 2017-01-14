@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_engine_data : mx.peterbilt.389.engine
+{
+	name: "Paccar MX-13"
+	price: 47150
+	unlock: 6
+	info[]: "455 @@hp@@ (340@@kw@@)"
+	info[]: "1@@dg@@650 @@lb_ft@@ (2237@@nm@@)"
+	info[]: "1@@dg@@000 @@rpm@@"
+	icon: "engine_01"
+	torque: 2237
+	rpm_limit: 2200
+	volume: 12.9
+
+	engine_brake: 2.0
+	engine_brake_downshift: 0
+	engine_brake_positions: 3
+}
+}

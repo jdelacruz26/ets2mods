@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_engine_data : isx12.peterbilt.389.engine
+{
+	name: "Cummins ISX 12"
+	price: 44650
+	unlock: 0
+	info[]: "370 @@hp@@ (276@@kw@@)"
+	info[]: "1@@dg@@350 @@lb_ft@@ (1830@@nm@@)"
+	info[]: "1@@dg@@100 @@rpm@@"
+	icon: "engine_01"
+	torque: 1830
+	rpm_limit: 2200
+	volume: 12
+
+	engine_brake: 2.0
+	engine_brake_downshift: 0
+	engine_brake_positions: 3
+}
+}
