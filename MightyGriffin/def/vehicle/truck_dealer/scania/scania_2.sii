@@ -32,6 +32,10 @@ vehicle: .tdealer.scania_2
  accessories[]: .scania2.f_mirror
  accessories[]: .scania2.s_mirror
  accessories[]: .scania2.sideskirt
+ accessories[]: .scania2.beacon
+ accessories[]: .scania2.bgrill
+ accessories[]: .scania2.fgrill
+ accessories[]: .scania2.rgrill
  accessories[]: .scania2.badge2
  accessories[]: .scania2.f_intake_cab
  accessories[]: .scania2.f_intake_chs
@@ -39,7 +43,6 @@ vehicle: .tdealer.scania_2
  accessories[]: .scania2.r_bumper
  accessories[]: .scania2.r_mudflap
  accessories[]: .scania2.swheel
- accessories[]: .scania2.beacon
 
  odometer: 0
  odometer_float_part: &3c3094b6
@@ -101,12 +104,12 @@ vehicle_accessory : .scania2.transmission {
 
 vehicle_sound_accessory : .scania2.soundint {
  wear: 0
- data_path: "/def/vehicle/truck/daf.xf/sound/interior.sii"
+ data_path: "/def/vehicle/truck/daf.xf_euro6/sound/interior.sii"
 }
 
 vehicle_sound_accessory : .scania2.soundext {
  wear: 0
- data_path: "/def/vehicle/truck/daf.xf/sound/exterior.sii"
+ data_path: "/def/vehicle/truck/daf.xf_euro6/sound/exterior.sii"
 }
 
 vehicle_accessory : .scania2.head_light {
@@ -120,7 +123,7 @@ vehicle_paint_job_accessory : .scania2.paint_job {
  mask_b_color: (0, 0, 1)
  base_color: (&3f54a8c1, &3f54a8c1, &3f54a8c1)
  wear: 0
- data_path: "/def/vehicle/truck/daf.xf_euro6/paint_job/color2.sii"
+ data_path: "/def/vehicle/truck/daf.xf_euro6/paint_job/style11.sii"
 }
 
 vehicle_addon_accessory : .scania2.doorstep {
@@ -148,7 +151,7 @@ vehicle_addon_accessory : .scania2.sunshld {
  slot_name: 0
  slot_hookup: 0
  wear: 0
- data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/sunshld/shape1bc.sii"
+ data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/sunshld/shape5.sii"
 }
 
 vehicle_addon_accessory : .scania2.f_mirror {
@@ -169,7 +172,7 @@ vehicle_addon_accessory : .scania2.sideskirt {
  slot_name: 0
  slot_hookup: 0
  wear: 0
- data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/sideskirt/shape3.sii"
+ data_path: "/def/vehicle/truck/scania.r/accessory/sideskirt/shape1.sii"
 }
 
 vehicle_addon_accessory : .scania2.beacon {
@@ -177,6 +180,27 @@ vehicle_addon_accessory : .scania2.beacon {
  slot_hookup: 0
  wear: 0
  data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/beacon/shape2.sii"
+}
+
+vehicle_addon_accessory : .scania2.bgrill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/b_grill/shape8.sii"
+}
+
+vehicle_addon_accessory : .scania2.fgrill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/f_grill/shape3.sii"
+}
+
+vehicle_addon_accessory : .scania2.rgrill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/daf.xf_euro6/accessory/r_grill/shape4.sii"
 }
 
 vehicle_wheel_accessory : .scania2.ftire {
