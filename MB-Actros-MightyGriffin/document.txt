@@ -1,0 +1,9 @@
+﻿[orange]Mercedes Benz Actros and Mighty Griffin logos
+[white]Testeado en versión del juego: [orange]1.26.XX
+[white]Autor: [red]Maxpayne
+[red]Mercedes Benz Actros and Mighty Griffin logos
+=======================
+[white]
+- Logos del DLC Mighty Griffin para el Mercedes Benz Actros GigaSpace.
+- Mighty Griffin logos for the Mercedes Benz Actros GigaSpace.
+

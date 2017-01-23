@@ -1,9 +1,0 @@
-﻿[orange]Mercedes Benz Across and Mighty Griffin logos
-[white]Testeado en versión del juego: [orange]1.26.XX
-[white]Autor: [red]Maxpayne
-[red]Mercedes Benz Across and Mighty Griffin logos
-=======================
-[white]
-- Logos del DLC Mighty Griffin para el Mercedes Benz Across GigaSpace.
-- Mighty Griffin logos for the Mercedes Benz Across GigaSpace.
-

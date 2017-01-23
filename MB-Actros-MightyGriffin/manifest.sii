@@ -8,7 +8,7 @@ mod_package : .package_name {
     package_version: "1.26.XX"
 
     # Display name can be any string with any length.
-    display_name: "MB-Across-MightyGriffin"
+    display_name: "MB-Actros-MightyGriffin"
 
     # Author can be any string with any length.
     author: "Maxpayne"
