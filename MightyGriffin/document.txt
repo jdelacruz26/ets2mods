@@ -7,3 +7,7 @@
 - Logos del DLC Mighty Griffin para el DAF XF Euro 6 Super Space .
 - Mighty Griffin logos for the DAF XF Euro 6 Super Space.
 
+[red]Change log v1.1:
+=====================================================
+-Added Transmision of the Scania Streamline with retarder
+

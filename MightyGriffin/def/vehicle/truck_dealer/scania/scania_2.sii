@@ -99,7 +99,7 @@ vehicle_addon_accessory : .scania2.r_mudflap {
 
 vehicle_accessory : .scania2.transmission {
  wear: 0
- data_path: "/def/vehicle/truck/scania.r/transmission/12_speed.sii"
+ data_path: "/def/vehicle/truck/scania.streamline/transmission/12_speed_ret.sii"
 }
 
 vehicle_sound_accessory : .scania2.soundint {
