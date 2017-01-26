@@ -4,12 +4,12 @@ Este es un repositorio en donde podrán encontrar distintos *mods* hechos para l
 El repositorio se encuentra estructurado en distintas ramas *Branches* las cuales se describen a continuación:
 
 
-* **master**: Esta es la rama que contine el archivo principal *README.md* y es solo para carácter explicativo.
-* **ets2mods**: en esta rama podrán encontrar una seria de carpetas las cuales contienen el código fuento utilizado para crear los distintos mods. Estas carpetas son nombradas utilizando el nombre del mod.
+* **master**: Esta es la rama que contine el archivo principal *README.md* y es sólo para carácter explicativo.
+* **ets2mods**: en esta rama podrán encontrar una serie de carpetas las cuales contienen el código fuente utilizado para crear los distintos mods. Estas carpetas son nombradas utilizando el nombre del mod.
 
 * **atsmods**: al igual que la rama anterior, este contiene la información relacionada a los mods creados para American Truck Simulator.
 
-Las tres ramas anteriores son las ramas principales del repositorio. Una vez se desea crear un mod, lo primero es crear una carpeta dentro de una de las dos ramas correspindientes **ets2mods** o **atsmos** dependiendo de cual sea el caso, luego con este código se genera el archivo **nombre-mod.scs** y este mod se procede a copiar en una rama adicional la cual lleva el nombre del mod. Por lo cual adicional a las tres ramas principales se podrán encontrar un número de ramas adicionales que corresponderan a los archivos con extensión **.scs**.
+Las tres ramas anteriores son las ramas principales del repositorio. Una vez se desea crear un mod, lo primero es crear una carpeta dentro de una de las dos ramas correspondientes **ets2mods** o **atsmos** dependiendo de cual sea el caso, luego con este código se genera el archivo **nombre-mod.scs** y este mod se procede a copiar en una rama adicional la cual lleva el nombre del mod. Por lo cual adicional a las tres ramas principales se podrán encontrar un número de ramas adicionales que corresponderan a los archivos con extensión **.scs**.
 
 ## ¿Cómo descargo los mods?
 ---
@@ -28,4 +28,4 @@ Las diferentes versiones de los mods son etiquetadas como **releases**, desde aq
 
 ## ¿Cómo instalo los mods?
 ---
-Una vez descargado el archivo zip desde la sección **releases**, desconprimirlo y en su interior se encontrará un archivo **README.md** el cual contara con las instrucciones para su instalación
+Una vez descargado el archivo zip desde la sección **releases**, descomprimirlo y en su interior se encontrará un archivo **README.md** el cual contará con las instrucciones para su instalación
