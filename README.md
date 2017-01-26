@@ -13,19 +13,19 @@ Las tres ramas anteriores son las ramas principales del repositorio. Una vez se 
 
 ## ¿Cómo descargo los mods?
 ---
-La forma más rápida de descargar los mods, sin prestar atención al código fuente utilizado para crear los mismos, sería ir a la sección **release** la cual se muestra en las siguientes imágenes:
+La forma más rápida de descargar los mods, sin prestar atención al código fuente utilizado para crear los mismos, sería ir a la sección **releases** la cual se muestra en las siguientes imágenes:
 
 [![Capture.png](https://s5.postimg.org/6baueisp3/Capture.png)](https://postimg.org/image/oe3x5qojn/)
 
 
-Una vez se da click en la sección **release** la siguiente ventana será mostrada en el navegador:
+Una vez se da click en la sección **releases** la siguiente ventana será mostrada en el navegador:
 
 [![release.png](https://s5.postimg.org/ly23rw6h3/release.png)](https://postimg.org/image/8h5590w5f/)
 
 
 
-Las diferentes versiones de los mods son etiquetadas como **release**, desde aquí se puede descargar el mod que se deseé como un archivo zip el cual contará con dos archivos, el archivo **nombre-mod.scs** y un archivo **README.md** que contiene la información de cómo instalar el mod.
+Las diferentes versiones de los mods son etiquetadas como **releases**, desde aquí se puede descargar el mod que se deseé como un archivo zip el cual contará con dos archivos, el archivo **nombre-mod.scs** y un archivo **README.md** que contiene la información de cómo instalar el mod.
 
 ## ¿Cómo instalo los mods?
 ---
-Una vez descargado el archivo zip desde la sección **release**, desconprimirlo y en su interior se encontrará un archivo **README.md** el cual contara con las instrucciones para su instalación
+Una vez descargado el archivo zip desde la sección **releases**, desconprimirlo y en su interior se encontrará un archivo **README.md** el cual contara con las instrucciones para su instalación
