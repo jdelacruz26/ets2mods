@@ -1,4 +1,4 @@
-# Repositorios de Euro Truck Simulator 2 y Euro Truck Simulator
+# Repositorios de Euro Truck Simulator 2 y American Truck Simulator
 ----
 Este es un repositorio en donde podrán encontrar distintos *mods* hechos para los juegos Euro Truck Simulator 2 y American Truck Simulator.
 El repositorio se encuentra estructurado en distintas ramas *Branches* las cuales se describen a continuación:
