@@ -17,6 +17,9 @@ La forma más rápida de descargar los mods, sin prestar atención al código fu
 
 [![Capture.png](https://s5.postimg.org/6baueisp3/Capture.png)](https://postimg.org/image/oe3x5qojn/)
 
+
+Una vez se da click en la sección **release** la siguiente ventana será mostrada en el navegador:
+
 [![release.png](https://s5.postimg.org/ly23rw6h3/release.png)](https://postimg.org/image/8h5590w5f/)
 
 
