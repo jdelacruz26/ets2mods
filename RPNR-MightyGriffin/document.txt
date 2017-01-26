@@ -1,0 +1,8 @@
+﻿[orange]Renault Premium Normal Roof and Mighty Griffin logos
+[white]Testeado en versión del juego: [orange]1.26.XX
+[white]Autor: [red]Maxpayne
+[red]Renault Premium Normal Roof and Mighty Griffin logos
+=======================
+[white]
+- Logos del DLC Mighty Griffin para el Renault Premium Normal Roof.
+- Mighty Griffin logos for the Renault Premium Normal Roof.
