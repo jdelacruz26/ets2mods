@@ -1,0 +1,399 @@
+vehicle: .tdealer.scania_4
+{
+ fuel_relative: &3f000000
+ user_mirror_rot: 4
+ user_mirror_rot[0]: (1; 0, 0, 0)
+ user_mirror_rot[1]: (1; 0, 0, 0)
+ user_mirror_rot[2]: (1; 0, 0, 0)
+ user_mirror_rot[3]: (1; 0, 0, 0)
+
+ accessories[]: .scania4.data
+ accessories[]: .scania4.chassis
+ accessories[]: .scania4.cabin
+ accessories[]: .scania4.interior
+ accessories[]: .scania4.engine
+ accessories[]: .scania4.transmission
+ accessories[]: .scania4.soundint
+ accessories[]: .scania4.soundext
+ accessories[]: .scania4.head_light
+ accessories[]: .scania4.ftire
+ accessories[]: .scania4.fdisc
+ accessories[]: .scania4.fhub
+ accessories[]: .scania4.fnuts
+ accessories[]: .scania4.rtire
+ accessories[]: .scania4.rdisc
+ accessories[]: .scania4.rhub
+ accessories[]: .scania4.rnuts
+ accessories[]: .scania4.rtire2
+ accessories[]: .scania4.rdisc2
+ accessories[]: .scania4.rhub2
+ accessories[]: .scania4.rnuts2
+ accessories[]: .scania4.paint_job
+ accessories[]: .scania4.doorhndl
+ accessories[]: .scania4.mirror
+ accessories[]: .scania4.doorstep
+ accessories[]: .scania4.sunshld
+ accessories[]: .scania4.f_mirror
+ accessories[]: .scania4.s_mirror
+ accessories[]: .scania4.sideskirt
+ accessories[]: .scania4.c_grill
+ accessories[]: .scania4.codrv_plate
+ accessories[]: .scania4.curtain_f
+ accessories[]: .scania4.doortrim
+ accessories[]: .scania4.drv_plate
+ accessories[]: .scania4.f_grill
+ accessories[]: .scania4.f_inlay_cab
+ accessories[]: .scania4.f_inlay_chs
+ accessories[]: .scania4.f_intake_cab
+ accessories[]: .scania4.f_intake_chs
+ accessories[]: .scania4.exhaust_m
+ accessories[]: .scania4.r_chs_cover
+ accessories[]: .scania4.r_bumper
+ accessories[]: .scania4.f_mudflap
+ accessories[]: .scania4.intlight_bck
+ accessories[]: .scania4.r_mudflap
+ accessories[]: .scania4.s_guard
+ accessories[]: .scania4.set_dashbrd
+ accessories[]: .scania4.windowtrim
+ accessories[]: .scania4.r_grill
+ accessories[]: .scania4.b_grill
+ accessories[]: .scania4.beacon
+ accessories[]: .scania4.swheel
+ odometer: 0
+ odometer_float_part: &3c129c03
+}
+
+vehicle_accessory : .scania4.data {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/data.sii"
+}
+
+vehicle_accessory : .scania4.chassis {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/chassis/6x2_4_midlift.sii"
+}
+
+vehicle_accessory : .scania4.cabin {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/cabin/topline.sii"
+}
+
+vehicle_accessory : .scania4.interior {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.streamline/interior/topline_v8.sii"
+}
+
+vehicle_accessory : .scania4.engine {
+ wear: 0
+ data_path: "/def/vehicle/truck/volvo.fh16/engine/d16g750.sii"
+}
+
+vehicle_accessory : .scania4.transmission {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.streamline/transmission/12_speed_ret.sii"
+}
+
+vehicle_sound_accessory : .scania4.soundint {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.streamline/sound/interior_v8.sii"
+}
+
+vehicle_sound_accessory : .scania4.soundext {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.streamline/sound/exterior_v8.sii"
+}
+
+vehicle_accessory : .scania4.head_light {
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/head_light/xenon.sii"
+}
+
+vehicle_paint_job_accessory : .scania4.paint_job {
+ mask_r_color: (0, 0, 0)
+ mask_g_color: (0, 0, 0)
+ mask_b_color: (0.5, 0.5, 0.5)
+ base_color :   (0.0085, 0.0193, 0.0595)
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/paint_job/style11.sii"
+}
+
+vehicle_addon_accessory : .scania4.doorhndl {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/doorhndl/shape3.sii"
+}
+
+vehicle_addon_accessory : .scania4.mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/mirror/shape3.sii"
+}
+
+vehicle_addon_accessory : .scania4.doorstep {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/doorstep/shape5.sii"
+}
+
+vehicle_addon_accessory : .scania4.sunshld {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/sunshld/shape5.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_mirror/shape1_long.sii"
+}
+
+vehicle_addon_accessory : .scania4.s_mirror {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/s_mirror/shape1.sii"
+}
+
+vehicle_addon_accessory : .scania4.sideskirt {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/sideskirt/shape1.sii"
+}
+
+vehicle_addon_accessory : .scania4.c_grill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/c_grill/cabgrill_mg_02.sii"
+}
+
+vehicle_addon_accessory : .scania4.codrv_plate {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/codrv_plate/lightboard04.sii"
+}
+
+vehicle_addon_accessory : .scania4.curtain_f {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/curtain_f/mg_curtain01.sii"
+}
+
+vehicle_addon_accessory : .scania4.doortrim {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/doortrim/doortrim_mg_04.sii"
+}
+
+vehicle_addon_accessory : .scania4.drv_plate {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/drv_plate/lightboard03.sii"
+}
+
+vehicle_addon_accessory : .scania4.exhaust_m {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/exhaust_m/exhaust_mg_03.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_inlay_cab {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_inlay_cab/vent_inlays_mg_03_cab.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_inlay_chs {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_inlay_chs/vent_inlays_mg_03_chs.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_intake_cab {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_intake_cab/frontintake_01_mg_cab_chrome.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_intake_chs {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_intake_chs/frontintake_01_mg_chs_chrome.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_grill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_grill/front_grill_mg_01.sii"
+}
+
+vehicle_addon_accessory : .scania4.r_bumper {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/r_bumper/rearbumper_mg_03.sii"
+}
+
+vehicle_addon_accessory : .scania4.r_chs_cover {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/r_chs_cover/chs_c_mg_6x24_02.sii"
+}
+
+vehicle_addon_accessory : .scania4.f_mudflap {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/f_mudflap/f_mudflaps_mg_kotr_black.sii"
+}
+
+vehicle_addon_accessory : .scania4.intlight_bck {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/intlight_bck/mg_int_light02.sii"
+}
+
+vehicle_addon_accessory : .scania4.r_mudflap {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/r_mudflap/wide_mudflap_kotr_mg.sii"
+}
+
+vehicle_addon_accessory : .scania4.s_guard {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/s_guard/stoneguard_mg_01.sii"
+}
+
+vehicle_addon_accessory : .scania4.set_dashbrd {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.streamline/accessory/set_dashbrd/dash_set05.sii"
+}
+
+vehicle_addon_accessory : .scania4.windowtrim {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/windowtrim/windowtrim_mg_01.sii"
+}
+
+vehicle_addon_accessory : .scania4.r_grill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/r_grill/shape4.sii"
+}
+
+vehicle_addon_accessory : .scania4.b_grill {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/b_grill/shape8.sii"
+}
+
+vehicle_addon_accessory : .scania4.beacon {
+ slot_name: 0
+ slot_hookup: 0
+ wear: 0
+ data_path: "/def/vehicle/truck/scania.r/accessory/beacon/shape2.sii"
+}
+
+vehicle_wheel_accessory : .scania4.ftire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_tire/f385-65_michelin_xlinef.dlc_michelin.sii"
+}
+
+vehicle_wheel_accessory : .scania4.fdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_disc/front_disc_02_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .scania4.fhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_hub/front_hub_mg.sii"
+}
+
+vehicle_wheel_accessory : .scania4.fnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/f_nuts/front_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rtire {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_tire/r315-80_michelin_xze.dlc_michelin.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rdisc {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rhub {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_mg.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rnuts {
+ offset: 0
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rtire2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_tire/r315-80_michelin_xze.dlc_michelin.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rdisc2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_disc/rear_disc_01_matt_gray.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rhub2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_hub/rear_hub_mg.sii"
+}
+
+vehicle_wheel_accessory : .scania4.rnuts2 {
+ offset: 2
+ wear: 0
+ data_path: "/def/vehicle/r_nuts/rear_nuts_01_steel.sii"
+}
+
+
+vehicle_addon_accessory : .scania4.swheel {
+	wear: 0
+	data_path: "/def/vehicle/truck/scania.streamline/accessory/steering_w/v8.sii"
+}

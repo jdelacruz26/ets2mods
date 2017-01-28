@@ -1,0 +1,12 @@
+﻿[orange]Scania Streamline steering wheel for Scania R
+[white]Testeado en versión del juego: [orange]1.26.XX
+[white]Autor: [red]Maxpayne
+[red]Scania Streamline steering wheel for Scania R
+============================================
+[white]
+- Interior y volante V8 para el Scania R .
+- Motor de 750hp volvo
+============================================
+[white]
+- Scania Streamline steering wheel for Scania R.
+- Volvo engine of 750hp
